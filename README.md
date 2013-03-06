@@ -18,6 +18,9 @@ Sandbox tutorial demonstrating workflow
 * workspace> [follow the clone/remote/checkout setup from contributor]
 * workspace> git checkout --track -b release/v1.22 upstream/develop
 * workspace> ...
+* workspace> [optional: git push upstream release/v1.22]
+* workspace> git checkout develop
+* workspace> git merge release/v1.22
 * workspace> git checkout master
 * workspace> git merge develop
 * workspace> git tag -s v1.22 -m 'my signed 1.22 tag'
