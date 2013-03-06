@@ -14,8 +14,8 @@ Sandbox tutorial demonstrating workflow
 * github-fork> pull request from feature/billing to upstream develop
 
 [release-master]
-* github> merge/close pull requests
-* workspace> follow the clone/remote/checkout setup from contributor
+* github> merge/close pull requests into develop
+* workspace> [follow the clone/remote/checkout setup from contributor]
 * workspace> git checkout --track -b release/v1.22 upstream/develop
 * workspace> ...
 * workspace> git checkout master
